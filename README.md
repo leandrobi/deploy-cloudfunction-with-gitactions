@@ -24,7 +24,8 @@ Este guia fornece instruções passo a passo sobre como configurar integração 
 2. Vá para a seção "Settings" (Configurações) do seu repositório.
 3. Na seção "Secrets and variables" (Segredos), clique em "Actions" e depois em "New repository secret" da aba Secrets.
 4. Nomeie o segredo como "GCP_SA_KEY" e cole o conteúdo da sua chave de serviço do Google Cloud Platform em "Value" (Valor).
-5. Clique em "Add secret" (Adicionar segredo) para salvar.
+5. Nomeie outro segredo como "GCP_PROJECT_ID" e informe o project-id do seu projeto GCP.
+6. Clique em "Add secret" (Adicionar segredo) para salvar.
 
 ## Criando um Snippet no VSCode
 
