@@ -23,5 +23,7 @@ def hello_http(request):
     # Converter o dicionário para uma string JSON
     response_json = json.dumps(data)
 
+    print(None)
+    
     # Retornar a resposta HTTP com o JSON
     return jsonify(data)
